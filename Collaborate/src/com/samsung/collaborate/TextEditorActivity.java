@@ -6,6 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
+
+import com.samsung.chord.ChordManager;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -58,6 +61,15 @@ public class TextEditorActivity extends FragmentActivity {
 			createNewFile();
 			Toast.makeText(this, "Text File should be created",
 					Toast.LENGTH_SHORT).show();
+			return true;
+		case R.id.StartChord:
+			
+			ChordManager chordmanager = ChordManager.getInstance(this);
+			chordmanager.setTempDirectory(Environment.getExternalStorageDirectory()
+            .getAbsolutePath() + "/Chord");
+			chordmanager.setHandleEventLooper(getMainLooper());
+			List<Integer> interfacetypes = chordmanager.getAvailableInterfaceTypes();			
+			
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);

@@ -13,5 +13,8 @@
     <string name="dialogsavefilename">/storage/</string>
     <string name="cancel">cancel</string>
     <string name="browse">Browse</string>
+    <string name="chordstart">Start Chord</string>
+    <string name="availablechanel">Chanel Available</string>
+    <string name="leavechord">leave Chord</string>
 
 </resources>

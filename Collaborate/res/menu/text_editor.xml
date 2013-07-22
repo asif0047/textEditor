@@ -1,4 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
     <item
         android:id="@+id/save"
         android:orderInCategory="200"
@@ -11,6 +12,18 @@
         android:showAsAction="ifRoom"
         android:title="@string/textopen">
     </item>
-    <item android:id="@+id/newfile" android:showAsAction="never" android:title="@string/newfile" android:orderInCategory="100"></item>
+    <item
+        android:id="@+id/newfile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/newfile">
+    </item>
+    <item
+        android:id="@+id/StartChord"
+        android:orderInCategory="200"
+        android:showAsAction="never" android:title="@string/chordstart">
+    </item>
+    <item android:id="@+id/availablechanel" android:orderInCategory="300" android:title="@string/availablechanel"></item>
+    <item android:id="@+id/leavechord" android:showAsAction="never" android:orderInCategory="400" android:title="@string/leavechord"></item>
 
 </menu>
