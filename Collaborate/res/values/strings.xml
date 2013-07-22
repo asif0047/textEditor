@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collaborate</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textsave">save</string>
+    <string name="textopen">open</string>
+    <string name="newfile">Create New</string>
+    <string name="textpad">Write here</string>
+    <string name="hinttext">Start Writing here</string>
+    <string name="dialogsavetext">FileName</string>
+    <string name="dialogsavefilename">/storage/</string>
+    <string name="cancel">cancel</string>
+    <string name="browse">Browse</string>
+
+</resources>

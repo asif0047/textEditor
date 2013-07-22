@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/textsave">
+    </item>
+    <item
+        android:id="@+id/open"
+        android:orderInCategory="300"
+        android:showAsAction="ifRoom"
+        android:title="@string/textopen">
+    </item>
+    <item android:id="@+id/newfile" android:showAsAction="never" android:title="@string/newfile" android:orderInCategory="100"></item>
+
+</menu>
